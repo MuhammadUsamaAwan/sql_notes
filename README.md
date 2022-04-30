@@ -226,10 +226,10 @@ JOIN branch
 ON employee.emp_id = branch.mgr_id;
 ```
 
-**(INNER) JOINS:**Matching values in both table<br>
-**LEFT (OUTER) JOIN:**left table + matching<br>
-**RIGHT (OUTER) JOIN:**right table + matching<br>
-**FULL (OUTER) JOIN:**Not in mySQL<br>
+**(INNER) JOINS:** Matching values in both table<br>
+**LEFT (OUTER) JOIN:** Left table + matching<br>
+**RIGHT (OUTER) JOIN:** Right table + matching<br>
+**FULL (OUTER) JOIN:** Not in mySQL<br>
 
 <br>
 
