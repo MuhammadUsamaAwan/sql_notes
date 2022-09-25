@@ -27,7 +27,7 @@ SQL = Data Query Language (DQL) + Data Definition Language(DDL) + Data Control L
 | INT          | Whole numbers                                                              |
 | DECIMAL(M,N) | Decimal numbers M=no of digits before decimal N=No of digits after decimal |
 | VARCHAR(1)   | string of text of length 1                                                 |
-| BLOB         | Binary large object. Stores large datra                                    |
+| BLOB         | Binary large object. Stores large data                                     |
 | DATE         | YYYY-MM-DD                                                                 |
 | TIMESTAMP    | HH:MM:SS                                                                   |
 
@@ -85,7 +85,7 @@ WHERE major='Biology';
 ## Delete
 
 ```sql
-DELETE student
+DELETE FROM student
 WHERE student-id=5;
 ```
 
